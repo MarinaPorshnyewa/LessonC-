@@ -10,6 +10,7 @@ namespace lesson4
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello!");
         }
     }
 }
