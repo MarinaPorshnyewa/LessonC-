@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4290BB29-CAD4-4E4C-A454-2C4830214BFA}</ProjectGuid>
+    <ProjectGuid>{A3DF5031-8100-4BDD-A4F6-0FEA8E23E26F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HouseConstruction</RootNamespace>
-    <AssemblyName>HouseConstruction</AssemblyName>
+    <RootNamespace>CarRacing</RootNamespace>
+    <AssemblyName>CarRacing</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Basement.cs" />
-    <Compile Include="Door.cs" />
-    <Compile Include="House.cs" />
-    <Compile Include="IPart.cs" />
-    <Compile Include="IWorker.cs" />
-    <Compile Include="Loger.cs" />
+    <Compile Include="Bus.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Roof.cs" />
-    <Compile Include="Team.cs" />
-    <Compile Include="TeamLeader.cs" />
-    <Compile Include="Walls.cs" />
-    <Compile Include="Window.cs" />
-    <Compile Include="Worker.cs" />
+    <Compile Include="SportCar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
